@@ -1,5 +1,9 @@
 pipeline {
     agent any
+
+    def color = params.color
+    def size = params.size
+
     stages {
         stage('build') {
             steps {
