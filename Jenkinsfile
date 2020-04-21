@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Size ${params.size}"+
+                echo "Size ${params.size}"
             }
         }
         stage('deploy') {
